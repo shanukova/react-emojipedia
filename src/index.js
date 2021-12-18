@@ -5,7 +5,7 @@ import emojipedia from "./emojipedia";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-// Exercises
+// Exercise
 
 let x = emojipedia.map(x => x.meaning.substring(0, 100));
 console.log(x);
